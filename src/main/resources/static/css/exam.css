@@ -1,0 +1,76 @@
+* { 
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+.sizeNum{
+	width: 8%;
+}
+.sizeSubject{
+	width: 15%;
+}
+.sizeTitle{
+	width: 60%;	
+}
+.sizeCheck{
+	width: 5%;
+}
+.sizeQzinput{
+	width: 12%;	
+}
+
+.btn2{
+	display: inline-block;
+    padding: 3px 20px;
+    background: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+}
+.btn2:hover{
+	background-color: gainsboro;
+}
+.dark{
+	background-color: #223159;
+	color: white;
+	border: none;
+}
+
+.dark:hover{
+	background-color: #696f8d;
+	color: white;
+}
+
+
+.section{
+	margin-bottom: 30px;
+}
+
+.title >h2{
+	text-align: middle;
+	padding-left: 10px;
+	font-size: 25px;
+	background-color: #223159;
+	color: white;
+	line-height: 2em;
+	border-radius: 5px;
+}
+
+.board-title{
+	background-color: #334166;	
+}
+
+.check{
+	/* display:none 하면 열이 깨짐 */
+	visibility: hidden;
+}
+
+.footer{
+	text-align: center;
+}
+.answer{
+	display: none;
+}
